@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ql-editor {
+  font-size: 1.05rem;
+}
+
+.posts-content p {
+  margin-bottom: 0.5rem;
+}
+
+.posts-content h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin: 1.5rem 0;
+}
+
+.posts-content h2 {
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  margin: 1.5rem 0;
+}
+
+.posts-content a {
+  color: rgb(73, 199, 77);
+  text-decoration: none;
+}
+
+.posts-content a:hover {
+  text-decoration: underline;
+}
+
+.dark .posts-content a {
+  color: red;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+}
+
+.carousel-control-prev {
+  top: 50%;
+  left: 5%;
+  cursor: pointer;
+}
+
+.carousel-control-next {
+  top: 50%;
+  right: 5%;
+  cursor: pointer;
+}
+
+.btn {
+  position: absolute;
+  left: 50%;
+  bottom: 4rem;
+}
+
+/* about style start */
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+
+}
+
+
+.grid {
+  display: grid;
+  gap: 9rem;
+}
+
+.grid-two-column {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-three-column {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-four-column {
+  grid-template-columns: 1fr 1.2fr .5fr .8fr;
+}
+
+.section-hero-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3rem;
+}
+
+.hero-top-data {
+  font-weight: 900;
+  font-size: 1.5rem;
+
+}
+
+.hero-heading h4 {
+  font-size: 2rem;
+}
+
+.hero-para {
+  margin-bottom: 3.4rem;
+  max-width: 60rem;
+}
+
+.section-hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+picture {
+  text-align: center;
+}
+
+.hero-img {
+  max-width: 80%;
+}
+
+/* about style end */
+/* about page @media queries start */
+@media (max-width:998px) {
+  .container {
+    padding: 0 3.2rem;
+  }
+
+  .grid-three-column {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid {
+    gap: 3.2rem;
+  }
+
+  .grid-two-column,
+  .grid-three-column,
+  .grid-four-column {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* about page @media queries end */

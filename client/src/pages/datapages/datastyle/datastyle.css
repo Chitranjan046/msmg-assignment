@@ -1,0 +1,151 @@
+/* buraarea page style start */
+.content-12 {
+ max-width: 650px;
+ margin: 60px 100px;
+}
+
+.content-12 .info-4 h2 {
+ color: #226a80;
+ font-size: 55px;
+ text-transform: uppercase;
+ font-weight: 800;
+ letter-spacing: 2px;
+ line-height: 60px;
+ margin-bottom: 30px;
+}
+
+.content-12 .info-4 h2 span {
+ color: #b99898;
+ font-size: 50px;
+ font-weight: 600;
+}
+
+.content-12 .info-4 p {
+ font-size: 16px;
+ font-weight: 500;
+ margin-bottom: 40px;
+}
+
+.content-12 .info {
+ color: #fff;
+ background-color: #226a80;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-weight: 700;
+ letter-spacing: 2px;
+ padding: 10px 20px;
+ border-radius: 5px;
+ transition: 0.3s;
+ transition-property: background-color;
+}
+
+.content-12 .info:hover {
+ background-color: #0c4f60;
+}
+
+@media (max-width:960px) {
+ .content-12 .info-4 h2 {
+  font-size: 45px;
+  line-height: 50px;
+ }
+
+ .content-12 .info-4 h2 span {
+  font-size: 40px;
+  font-weight: 600;
+ }
+
+ .content-12 .info-4 p {
+  font-size: 14px;
+ }
+}
+
+@media (max-width:560px) {
+ .content-12 .info-4 h2 {
+  font-size: 35px;
+  line-height: 40px;
+ }
+
+ .content-12 .info-4 h2 span {
+  font-size: 30px;
+  font-weight: 600;
+ }
+
+ .content-12 .info-4 p {
+  font-size: 14px;
+ }
+}
+
+/* buraarea page style end */
+/* Hydrology page style start */
+.main_4 {
+ flex: 1;
+ display: flex;
+ align-items: center;
+}
+
+.bottom img {
+ width: 100%;
+}
+
+.left_19 {
+ max-width: 40%;
+ padding: 40px 30px;
+}
+
+.bottom {
+ padding: 40px 48px;
+}
+
+.title_7 {
+ width: 50%;
+ color: #ff5360;
+ font-size: 3.2em;
+ font-weight: bold;
+ letter-spacing: 2px;
+ margin-bottom: 48px;
+}
+
+.msg {
+ color: #9fb5cc;
+ font-size: 1.1em;
+ letter-spacing: 0.7px;
+ line-height: 32px;
+ margin-bottom: 48px;
+}
+
+@media (max-width:800px) {
+
+ .left_19,
+ .bottom {
+  padding-left: 40px;
+  padding-right: 40px;
+ }
+}
+
+@media (max-width:650px) {
+ .main_4 {
+  flex-direction: column;
+ }
+
+ .left_19,
+ .bottom {
+  width: 100%;
+  max-width: 100%;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .left_19 {
+  font-size: 0.8em;
+ }
+
+ .left_19 * {
+  width: 95%;
+  margin-bottom: 32px;
+  text-align: center;
+ }
+}
+
+/* Hydrology page style end */
